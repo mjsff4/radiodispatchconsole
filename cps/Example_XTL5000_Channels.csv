@@ -1,0 +1,194 @@
+__File Format Version__,0x01
+
+__Feature__,"Scan List"
+
+__Record__,1 of 1 ("Scan List")
+
+__Section__,"General"
+
+__Field Name__, __Field Value__
+"Scan Type","Conventional"
+"Multi System Scan","False"
+"Trunking System Record Num","1"
+"Trunking System ID"," 1"
+"Trunking System Type"," "
+"Dynamic Priority","False"
+"Priority 1 Type","Fixed"
+"Priority 1 Member","1"
+"Priority 2 Type","Fixed"
+"Priority 2 Member","2"
+"Non-Priority Members","Fixed"
+"Designated Voice Tx Member","Selected Chan"
+"Designated Data Member","None"
+
+__Section__,"Advanced"
+
+__Field Name__, __Field Value__
+"Data Tx Limited Patience Timer","Infinite"
+"Voting Scan Delay Timer","0"
+"Mixed Conventional Vote Scan Inactivity Timer (min)","10"
+"Display Strongest Voted Channel","False"
+"Interference Mitigation","False"
+"Interference Mitigation Talkaround Member","None"
+"Tx Steering","False"
+
+__Section__,"List"
+
+__Field Names__
+"Zone","Channel","Zone Text","Channel Text"
+__Field Values__
+"1","1","Z1","FD1 RPT"
+"1","2","Z1","STATE FD"
+"1","3","Z1","FIRE MA"
+"1","5","Z1","CITY FD"
+"1","8","Z1","FD2 RPT"
+"1","10","Z1","FD3 DISP"
+"1","7","Z1","CNTY MON"
+"5","7","Z5","FD7 PAGE"
+"5","11","Z5","NC PAGE"
+"2","2","Z2","FD4"
+"1","9","Z1","VLG FD"
+"2","10","Z2","CITY HSP"
+"3","9","Z3","LAW I/O"
+"5","12","Z5","SO PRI"
+"5","13","Z5","SO SEC"
+
+__Feature__,"Zone Channel Assignment"
+
+__Record__,1 of 6 ("Zone Channel Assignment")
+
+__Section__,"Zone"
+
+__Field Name__, __Field Value__
+"Zone Name","Z1"
+
+__Section__,"Channels"
+
+__Field Names__
+"Channel Name","Personality Type","Personality #","User Selectable PL (MPL)","Receive Frequency","Receive Squelch Type","Receive PL Freq","Receive PL Code","Receive DPL Code","Receive DPL Invert","Itinerant Channel Frequency","Transmit Frequency","Transmit Squelch Type","Transmit PL Freq","Transmit PL Code","Transmit DPL Code","Transmit DPL Invert","Tx Opt Transmit Dev","Tx Opt Transmit Dev T/A","Tx Opt Channel Spacing","TA Direct/Talkaround","TA Frequency","TA Squelch Type","TA PL Frequency","TA PL Code","TA DPL Code","TA DPL Invert","Direct Network ID","Tx Network ID","Rx Network ID"
+__Field Values__
+"FD1 RPT","Cnv","2","False","150.81250","PL","179.9","6B","023","False","False","150.97500","PL","179.9","6B","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","150.81250","PL","179.9","6B","023","False","788","788","788"
+"STATE FD","Cnv","1","False","151.30000","CSQ","67.0","XZ","023","False","False","151.30000","Disabled","67.0","XZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","151.30000","Disabled","67.0","XZ","023","False","293","293","293"
+"FIRE MA","Cnv","1","False","154.26500","PL","210.7","M2","023","False","False","154.26500","PL","210.7","M2","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.26500","PL","210.7","M2","023","False","293","293","293"
+"FD1 OPS","Cnv","1","False","151.46250","DPL","67.0","XZ","032","False","False","151.46250","DPL","67.0","XZ","032","False","2.5 kHz","2.5 kHz","12.5 kHz","False","151.46250","DPL","67.0","XZ","032","False","293","293","293"
+"CITY FD","Cnv","1","False","151.62500","PL","186.2","7Z","023","False","False","151.78750","PL","186.2","7Z","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","151.62500","PL","186.2","7Z","023","False","293","293","293"
+"TWP I/O","Cnv","1","False","151.95000","PL","114.8","2A","023","False","False","151.95000","PL","114.8","2A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","151.95000","PL","114.8","2A","023","False","293","293","293"
+"CNTY MON","Cnv","3","False","152.11250","CSQ","67.0","XZ","023","False","False","136.02500","Disabled","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","152.11250","Disabled","67.0","XZ","023","False","293","293","293"
+"FD2 RPT","Cnv","1","False","152.27500","DPL","67.0","XZ","743","False","False","152.43750","DPL","67.0","XZ","743","False","2.5 kHz","2.5 kHz","12.5 kHz","False","152.27500","DPL","67.0","XZ","743","False","293","293","293"
+"VLG FD","Cnv","1","False","152.60000","DPL","67.0","XZ","432","False","False","152.76250","DPL","67.0","XZ","432","False","2.5 kHz","2.5 kHz","12.5 kHz","False","152.60000","DPL","67.0","XZ","432","False","293","293","293"
+"FD3 DISP","Cnv","1","False","152.92500","PL","103.5","1A","023","False","False","153.08750","PL","103.5","1A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","152.92500","PL","103.5","1A","023","False","293","293","293"
+
+__Record__,2 of 6 ("Zone Channel Assignment")
+
+__Section__,"Zone"
+
+__Field Name__, __Field Value__
+"Zone Name","Z2"
+
+__Section__,"Channels"
+
+__Field Names__
+"Channel Name","Personality Type","Personality #","User Selectable PL (MPL)","Receive Frequency","Receive Squelch Type","Receive PL Freq","Receive PL Code","Receive DPL Code","Receive DPL Invert","Itinerant Channel Frequency","Transmit Frequency","Transmit Squelch Type","Transmit PL Freq","Transmit PL Code","Transmit DPL Code","Transmit DPL Invert","Tx Opt Transmit Dev","Tx Opt Transmit Dev T/A","Tx Opt Channel Spacing","TA Direct/Talkaround","TA Frequency","TA Squelch Type","TA PL Frequency","TA PL Code","TA DPL Code","TA DPL Invert","Direct Network ID","Tx Network ID","Rx Network ID"
+__Field Values__
+"FD3 TAC2","Cnv","4","False","153.25000","PL","100.0","1Z","023","False","False","153.41250","PL","100.0","1Z","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","153.25000","PL","100.0","1Z","023","False","293","293","293"
+"FD4","Cnv","4","False","153.57500","PL","77.0","XB","023","False","False","153.73750","PL","77.0","XB","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","153.57500","PL","77.0","XB","023","False","293","293","293"
+"FD4 FG","Cnv","4","False","153.57500","DPL","67.0","XZ","343","False","False","153.57500","DPL","67.0","XZ","343","False","2.5 kHz","2.5 kHz","12.5 kHz","False","153.57500","DPL","67.0","XZ","343","False","293","293","293"
+"FD2 I/O","Cnv","4","False","151.30000","DPL","67.0","XZ","155","False","False","151.30000","DPL","67.0","XZ","155","False","2.5 kHz","2.5 kHz","12.5 kHz","False","151.30000","DPL","67.0","XZ","155","False","293","293","293"
+"FD2 TAC2","Cnv","4","False","153.90000","CSQ","67.0","XZ","023","False","False","153.90000","Disabled","67.0","XZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","153.90000","Disabled","67.0","XZ","023","False","293","293","293"
+"VLG OPS","Cnv","4","False","154.06250","PL","69.3","WZ","023","False","False","154.06250","PL","69.3","WZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.06250","PL","69.3","WZ","023","False","293","293","293"
+"RIVER","Cnv","4","False","154.22500","CSQ","67.0","XZ","023","False","False","154.22500","Disabled","67.0","XZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.22500","Disabled","67.0","XZ","023","False","293","293","293"
+"CNTY SO","Cnv","4","False","152.11250","DPL","67.0","XZ","365","False","False","154.38750","DPL","67.0","XZ","365","False","2.5 kHz","2.5 kHz","12.5 kHz","False","152.11250","DPL","67.0","XZ","365","False","293","293","293"
+"CNTY NO","Cnv","4","False","152.11250","DPL","67.0","XZ","465","False","False","154.38750","DPL","67.0","XZ","465","False","2.5 kHz","2.5 kHz","12.5 kHz","False","152.11250","DPL","67.0","XZ","465","False","293","293","293"
+"CITY HSP","Cnv","4","False","154.55000","CSQ","97.4","ZB","023","False","False","154.55000","PL","97.4","ZB","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.55000","PL","97.4","ZB","023","False","293","293","293"
+
+__Record__,3 of 6 ("Zone Channel Assignment")
+
+__Section__,"Zone"
+
+__Field Name__, __Field Value__
+"Zone Name","Z3"
+
+__Section__,"Channels"
+
+__Field Names__
+"Channel Name","Personality Type","Personality #","User Selectable PL (MPL)","Receive Frequency","Receive Squelch Type","Receive PL Freq","Receive PL Code","Receive DPL Code","Receive DPL Invert","Itinerant Channel Frequency","Transmit Frequency","Transmit Squelch Type","Transmit PL Freq","Transmit PL Code","Transmit DPL Code","Transmit DPL Invert","Tx Opt Transmit Dev","Tx Opt Transmit Dev T/A","Tx Opt Channel Spacing","TA Direct/Talkaround","TA Frequency","TA Squelch Type","TA PL Frequency","TA PL Code","TA DPL Code","TA DPL Invert","Direct Network ID","Tx Network ID","Rx Network ID"
+__Field Values__
+"FIRE MA","Cnv","4","False","154.26500","PL","210.7","M2","023","False","False","154.26500","PL","210.7","M2","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.26500","PL","210.7","M2","023","False","293","293","293"
+"FIRE MA2","Cnv","4","False","154.30250","PL","67.0","XZ","023","False","False","154.30250","PL","67.0","XZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.30250","PL","67.0","XZ","023","False","293","293","293"
+"MA RED","Cnv","6","False","154.71250","PL","69.3","WZ","023","False","False","154.71250","PL","69.3","WZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.71250","PL","69.3","WZ","023","False","293","293","293"
+"MA WHITE","Cnv","6","False","154.87500","PL","74.4","WA","023","False","False","154.87500","PL","74.4","WA","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.87500","PL","74.4","WA","023","False","293","293","293"
+"MA BLUE","Cnv","6","False","153.90000","PL","85.4","YA","023","False","False","153.90000","PL","85.4","YA","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","153.90000","PL","85.4","YA","023","False","293","293","293"
+"MA GOLD","Cnv","6","False","155.03750","PL","91.5","ZZ","023","False","False","155.03750","PL","91.5","ZZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","155.03750","PL","91.5","ZZ","023","False","293","293","293"
+"MA BLACK","Cnv","6","False","155.20000","PL","94.8","ZA","023","False","False","155.20000","PL","94.8","ZA","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","155.20000","PL","94.8","ZA","023","False","293","293","293"
+"MA GRAY","Cnv","6","False","155.36250","PL","136.5","4Z","023","False","False","155.36250","PL","136.5","4Z","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","155.36250","PL","136.5","4Z","023","False","293","293","293"
+"LAW I/O","Cnv","4","False","155.52500","DPL","67.0","XZ","156","False","False","155.52500","DPL","67.0","XZ","156","False","2.5 kHz","2.5 kHz","12.5 kHz","False","155.52500","DPL","67.0","XZ","156","False","293","293","293"
+"LAW MON","Cnv","4","False","155.52500","CSQ","67.0","XZ","023","False","False","155.52500","DPL","67.0","XZ","156","False","2.5 kHz","2.5 kHz","12.5 kHz","False","155.52500","DPL","67.0","XZ","156","False","293","293","293"
+
+__Record__,4 of 6 ("Zone Channel Assignment")
+
+__Section__,"Zone"
+
+__Field Name__, __Field Value__
+"Zone Name","Z4"
+
+__Section__,"Channels"
+
+__Field Names__
+"Channel Name","Personality Type","Personality #","User Selectable PL (MPL)","Receive Frequency","Receive Squelch Type","Receive PL Freq","Receive PL Code","Receive DPL Code","Receive DPL Invert","Itinerant Channel Frequency","Transmit Frequency","Transmit Squelch Type","Transmit PL Freq","Transmit PL Code","Transmit DPL Code","Transmit DPL Invert","Tx Opt Transmit Dev","Tx Opt Transmit Dev T/A","Tx Opt Channel Spacing","TA Direct/Talkaround","TA Frequency","TA Squelch Type","TA PL Frequency","TA PL Code","TA DPL Code","TA DPL Invert","Direct Network ID","Tx Network ID","Rx Network ID"
+__Field Values__
+"CNTY EMA","Cnv","4","False","155.68750","PL","114.8","2A","023","False","False","155.68750","PL","114.8","2A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","155.68750","PL","114.8","2A","023","False","293","293","293"
+"EMS MA","Cnv","4","False","155.85000","PL","123.0","3Z","023","False","False","155.85000","PL","123.0","3Z","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","155.85000","PL","123.0","3Z","023","False","293","293","293"
+"STATE EM","Cnv","4","False","156.01250","CSQ","67.0","XZ","023","False","False","156.01250","Disabled","67.0","XZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","156.01250","Disabled","67.0","XZ","023","False","293","293","293"
+"VCALL 10","Cnv","4","False","155.75250","PL","156.7","5A","023","False","False","155.75250","PL","156.7","5A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","155.75250","PL","156.7","5A","023","False","293","293","293"
+"VTAC 11","Cnv","4","False","151.13750","PL","156.7","5A","023","False","False","151.13750","PL","156.7","5A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","151.13750","PL","156.7","5A","023","False","293","293","293"
+"VTAC 12","Cnv","4","False","154.45250","PL","156.7","5A","023","False","False","154.45250","PL","156.7","5A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.45250","PL","156.7","5A","023","False","293","293","293"
+"VTAC 13","Cnv","4","False","158.73750","PL","156.7","5A","023","False","False","158.73750","PL","156.7","5A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","158.73750","PL","156.7","5A","023","False","293","293","293"
+"VTAC 14","Cnv","4","False","159.47250","PL","156.7","5A","023","False","False","159.47250","PL","156.7","5A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","159.47250","PL","156.7","5A","023","False","293","293","293"
+"HOSP NET","Cnv","4","False","154.55000","CSQ","67.0","XZ","023","False","False","154.55000","PL","210.7","M2","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","154.55000","PL","210.7","M2","023","False","293","293","293"
+
+__Record__,5 of 6 ("Zone Channel Assignment")
+
+__Section__,"Zone"
+
+__Field Name__, __Field Value__
+"Zone Name","Z5"
+
+__Section__,"Channels"
+
+__Field Names__
+"Channel Name","Personality Type","Personality #","User Selectable PL (MPL)","Receive Frequency","Receive Squelch Type","Receive PL Freq","Receive PL Code","Receive DPL Code","Receive DPL Invert","Itinerant Channel Frequency","Transmit Frequency","Transmit Squelch Type","Transmit PL Freq","Transmit PL Code","Transmit DPL Code","Transmit DPL Invert","Tx Opt Transmit Dev","Tx Opt Transmit Dev T/A","Tx Opt Channel Spacing","TA Direct/Talkaround","TA Frequency","TA Squelch Type","TA PL Frequency","TA PL Code","TA DPL Code","TA DPL Invert","Direct Network ID","Tx Network ID","Rx Network ID"
+__Field Values__
+"FD5 DISP","Cnv","4","False","156.17500","PL","136.5","4Z","023","False","False","156.33750","PL","136.5","4Z","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","156.17500","PL","136.5","4Z","023","False","293","293","293"
+"FD6 DISP","Cnv","4","False","156.50000","PL","156.7","5A","023","False","False","156.66250","PL","156.7","5A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","156.50000","PL","156.7","5A","023","False","293","293","293"
+"FD6 OPS","Cnv","4","False","156.82500","PL","136.5","4Z","023","False","False","156.82500","PL","136.5","4Z","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","156.82500","PL","136.5","4Z","023","False","293","293","293"
+"FD7 DISP","Cnv","4","False","156.98750","PL","162.2","5B","023","False","False","157.15000","PL","131.8","3B","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","156.98750","PL","162.2","5B","023","False","293","293","293"
+"FD7 EMS","Cnv","4","False","157.31250","PL","100.0","1Z","023","False","False","157.47500","PL","141.3","4A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","157.31250","PL","100.0","1Z","023","False","293","293","293"
+"FD8 DISP","Cnv","4","False","157.63750","PL","114.8","2A","023","False","False","157.80000","PL","114.8","2A","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","157.63750","PL","114.8","2A","023","False","293","293","293"
+"FD7 PAGE","Cnv","6","False","157.96250","PL","100.0","1Z","023","False","False","157.96250","Disabled","67.0","XZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","157.96250","Disabled","67.0","XZ","023","False","293","293","293"
+"NC EMA 1","Cnv","4","False","158.12500","DPL","67.0","XZ","051","False","False","158.28750","DPL","67.0","XZ","051","False","2.5 kHz","2.5 kHz","12.5 kHz","False","158.12500","DPL","67.0","XZ","051","False","293","293","293"
+"NC EMA 2","Cnv","4","False","158.45000","DPL","67.0","XZ","054","False","False","158.61250","DPL","67.0","XZ","054","False","2.5 kHz","2.5 kHz","12.5 kHz","False","158.45000","DPL","67.0","XZ","054","False","293","293","293"
+"NC EMA 3","Cnv","4","False","158.77500","DPL","67.0","XZ","065","False","False","158.93750","DPL","67.0","XZ","065","False","2.5 kHz","2.5 kHz","12.5 kHz","False","158.77500","DPL","67.0","XZ","065","False","293","293","293"
+"NC PAGE","Cnv","6","False","159.10000","CSQ","67.0","XZ","023","False","False","136.02500","Disabled","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","159.10000","Disabled","67.0","XZ","023","False","293","293","293"
+"SO PRI","Cnv","6","False","159.26250","PL","114.8","2A","023","False","False","159.26250","Disabled","67.0","XZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","159.26250","Disabled","67.0","XZ","023","False","293","293","293"
+"SO SEC","Cnv","6","False","159.42500","PL","114.8","2A","023","False","False","159.42500","Disabled","67.0","XZ","023","False","2.5 kHz","2.5 kHz","12.5 kHz","False","159.42500","Disabled","67.0","XZ","023","False","293","293","293"
+
+__Record__,6 of 6 ("Zone Channel Assignment")
+
+__Section__,"Zone"
+
+__Field Name__, __Field Value__
+"Zone Name","Z6"
+
+__Section__,"Channels"
+
+__Field Names__
+"Channel Name","Personality Type","Personality #","User Selectable PL (MPL)","Receive Frequency","Receive Squelch Type","Receive PL Freq","Receive PL Code","Receive DPL Code","Receive DPL Invert","Itinerant Channel Frequency","Transmit Frequency","Transmit Squelch Type","Transmit PL Freq","Transmit PL Code","Transmit DPL Code","Transmit DPL Invert","Tx Opt Transmit Dev","Tx Opt Transmit Dev T/A","Tx Opt Channel Spacing","TA Direct/Talkaround","TA Frequency","TA Squelch Type","TA PL Frequency","TA PL Code","TA DPL Code","TA DPL Invert","Direct Network ID","Tx Network ID","Rx Network ID"
+__Field Values__
+"MURS 1","Cnv","6","False","151.82000","CSQ","67.0","XZ","023","False","False","136.02500","Disabled","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","151.82000","Disabled","67.0","XZ","023","False","293","293","293"
+"MURS 2","Cnv","6","False","151.88000","CSQ","67.0","XZ","023","False","False","136.02500","Disabled","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","151.88000","Disabled","67.0","XZ","023","False","293","293","293"
+"MURS 3","Cnv","6","False","151.94000","CSQ","67.0","XZ","023","False","False","136.02500","Disabled","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","151.94000","Disabled","67.0","XZ","023","False","293","293","293"
+"MURS 4","Cnv","6","False","154.57000","CSQ","67.0","XZ","023","False","False","136.02500","Disabled","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","154.57000","Disabled","67.0","XZ","023","False","293","293","293"
+"MURS 5","Cnv","6","False","154.60000","CSQ","67.0","XZ","023","False","False","136.02500","Disabled","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","154.60000","Disabled","67.0","XZ","023","False","293","293","293"
+"WX 1","Cnv","6","False","162.55000","CSQ","67.0","XZ","023","False","False","136.02500","Disabled","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","162.55000","Disabled","67.0","XZ","023","False","293","293","293"
+"WX 2","Cnv","6","False","162.40000","CSQ","67.0","XZ","023","False","False","136.02500","Disabled","67.0","XZ","023","False","5.0 kHz","5.0 kHz","25.0 kHz","True","162.40000","Disabled","67.0","XZ","023","False","293","293","293"
+

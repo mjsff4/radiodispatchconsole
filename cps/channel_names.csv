@@ -1,0 +1,59 @@
+RadioText,FullName
+FD1 RPT,Fire District 1 Repeater
+STATE FD,Statewide Fire
+FIRE MA2,Fire Mutual Aid 2
+FIRE MA,Fire Mutual Aid
+FD1 OPS,Fire District 1 Operations
+CITY FD,City Fire Department
+TWP I/O,Township Interoperability
+CNTY MON,County Monitor
+FD2 RPT,Fire District 2 Repeater
+VLG FD,Village Fire Department
+FD3 DISP,Fire District 3 Dispatch
+FD3 TAC2,Fire District 3 Tactical 2
+FD4 FG,Fire District 4 Fireground
+FD4,Fire District 4 Dispatch
+FD2 I/O,Fire District 2 Interoperability
+FD2 TAC2,Fire District 2 Tactical 2
+VLG OPS,Village Fire Operations
+RIVER,River Rescue
+CNTY SO,County South
+CNTY NO,County North
+CITY HSP,City Hospital Link
+MA RED,Mutual Aid Red
+MA WHITE,Mutual Aid White
+MA BLUE,Mutual Aid Blue
+MA GOLD,Mutual Aid Gold
+MA BLACK,Mutual Aid Black
+MA GRAY,Mutual Aid Gray
+LAW I/O,Law Enforcement Interoperability
+LAW MON,Law Interoperability Monitor
+CNTY EMA,County Emergency Management
+EMS MA,EMS Mutual Aid
+STATE EM,State Emergency Management
+VCALL 10,VCALL 10
+VTAC 11,VTAC 11
+VTAC 12,VTAC 12
+VTAC 13,VTAC 13
+VTAC 14,VTAC 14
+HOSP NET,Hospital Network
+FD5 DISP,Fire District 5 Dispatch
+FD6 DISP,Fire District 6 Dispatch
+FD6 OPS,Fire District 6 Operations
+FD7 DISP,Fire District 7 Dispatch
+FD7 EMS,Fire District 7 EMS
+FD8 DISP,Fire District 8 Dispatch
+FD7 PAGE,Fire District 7 Paging
+NC EMA 1,Neighbor County EMA 1
+NC EMA 2,Neighbor County EMA 2
+NC EMA 3,Neighbor County EMA 3
+NC PAGE,Neighbor County Paging
+SO PRI,Sheriff Primary
+SO SEC,Sheriff Secondary
+MURS 1,MURS 1
+MURS 2,MURS 2
+MURS 3,MURS 3
+MURS 4,MURS 4
+MURS 5,MURS 5
+WX 1,NOAA Weather 1
+WX 2,NOAA Weather 2

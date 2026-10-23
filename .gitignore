@@ -1,0 +1,29 @@
+# Build output (Build_And_Run.cmd / Verify.cmd)
+build/
+verify_build/
+bin/
+obj/
+*.exe
+*.pdb
+
+# Visual Studio / Rider
+.vs/
+*.user
+*.suo
+.idea/
+
+# Local data that should never be published
+*.config.xml
+*.config.xml.bak
+error-log.txt
+Recordings/
+*.wav
+
+# Your own codeplug exports and branding (keep them local; the repo ships examples)
+cps/*.local.csv
+codeplug-reference/
+
+# OS clutter
+Thumbs.db
+Desktop.ini
+.DS_Store
